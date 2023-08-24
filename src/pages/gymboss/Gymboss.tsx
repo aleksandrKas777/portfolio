@@ -4,7 +4,6 @@ import {IExercise, ITrain} from "./interfaces";
 import Select from "react-select";
 import {CartesianGrid, Legend, Line, ResponsiveContainer, XAxis, YAxis, LineChart, Tooltip} from "recharts";
 
-
 const checkWeight = (str: string) => {
 
   if (str.slice(-1) === 'п') {
