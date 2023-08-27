@@ -3,12 +3,12 @@ export interface IExercise {
   name: string
 }
 
-interface IApproach {
+export interface IApproach {
   count: number,
   type: string,
   weight: number
 }
-interface IExerciseTrain {
+export interface IExerciseTrain {
   exercise: number,
   result: Array<IApproach>
 }
